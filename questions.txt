@@ -1,0 +1,5 @@
+How do you deal with 2fa, and sign ins? 
+- maybe override the JWT and cookies being sent?
+
+What about caching agent work? 
+- I tried director -> intersting, if I get job I want to try to just cache website, check diff on visit, and write out exact steps (kind of like director, maybe using selenium - context sharing with agents almost like cleopatra project)
