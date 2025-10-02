@@ -39,10 +39,6 @@ async function runWorkflow() {
     console.log('Navigating to: https://www.amtrak.com/');
     await page.goto('https://www.amtrak.com/'); 
     
-    // Step 2: Perform action
-    console.log(`Performing action: click the From input field`);
-    await page.act(`click the From input field`); 
-    
     // Step 3: Perform action
     console.log(`Performing action: click the Allow All button`);
     await page.act(`click the Allow All button`); 
@@ -80,9 +76,9 @@ async function runWorkflow() {
     await page.act(`click the Depart Date field`); 
     
     // Step 10: Perform action
-    console.log(`Performing action: click the 1 date in October 2025`);
-    await page.act(`click the 1 date in October 2025`); 
-    
+    console.log(`Performing action: click today's date ${new Date().toLocaleDateString()}`);
+    await page.act(`click today's date`); 
+
     // Step 11: Perform action
     console.log(`Performing action: click the FIND TRAINS button`);
     await page.act(`click the FIND TRAINS button`); 
