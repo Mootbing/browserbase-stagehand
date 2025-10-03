@@ -1,2 +1,4 @@
 /node_modules
 /.env
+/my-stagehand-app/node_modules
+/my-stagehand-app/.env

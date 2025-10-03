@@ -12,6 +12,7 @@ dotenv.config({ path: "../.env" });
 const stagehandConfig = (): ConstructorParams => {
   return {
     env: 'LOCAL',
+    modelName: 'openai/gpt-5-mini',
   };
 };
 
